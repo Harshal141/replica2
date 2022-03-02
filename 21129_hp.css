@@ -1,0 +1,194 @@
+/*
+Name: Harshal Mukunda Patil
+Regist_no: 21129
+Branch: Comp
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DEE4E7;
+}
+
+h3{
+    margin: 0;
+    padding-top: 5px;
+}
+h2{
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+.box{
+    margin-left: 5%;
+    width:90%;
+    background-color: white;
+    border-radius: 20px;
+}
+.navbar .navbar-collapse{
+    text-align: center;
+}
+.bg-dark{
+    background-color: #222222 !important;
+}
+.fbox{
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 0px 20px 0px;
+}
+.ppl{
+    background-image:url(images/l.png);
+    position: absolute;
+    top:48%;
+}
+.lefty{
+    background-image:url(images/l.png);
+}
+.righty{
+    background-image: url(images/r.png);
+}
+.ppr{
+    background-image: url(images/r.png);
+    position: absolute;
+    top:48%;
+    right: 15px;
+}
+.buy{
+    background-color: #222222;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 10px 0px 0px 30px;
+    font-size: 2vw;
+    font-weight: 500;
+}
+.sliderr{
+    display: none;
+}
+.fbox_main{
+    margin-top: 50px;
+}
+.out_card{
+    width:25%;
+    padding:10px;
+}
+.ppll,.pprr{
+    margin-top: 180px;
+}
+.box3{
+    margin-left: 10%;
+    width:80%;
+}
+.helpt{
+    margin: 0;
+    padding: 50px 10px 60px 10px;
+    font-size: 2.5vw; 
+    color: #222222; 
+    font-weight: bold;
+}
+.hidder{
+    display: none;
+}
+.quest{
+    font-size: 2vw; 
+    color:#222222;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+.ans{
+    font-size: 1.5vw; 
+    color:#b6aaaa;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.imge{
+    width:50%;
+}
+.c,.l,.r{
+    padding: 10px;
+    padding-top: 20px;
+}
+h1{
+    padding-left: 10px;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #222222;
+    width: 100%;
+    padding: 20px;
+}
+.icon{
+    width: 50px;
+    float: left;
+}
+.name{
+    color: white; 
+    font-weight: bold; 
+    float: left; 
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*media queries*/
+@media (max-width:768px){
+    .name{
+        padding-top: 10px;
+    }
+    .icon{
+        width:20px;
+    }
+    .ans{
+        font-size: 3vw;
+    }
+    .imge{
+        width: 80%;
+        margin-top: 100%;
+    }
+    .quest{
+        font-size: 4.5vw;
+    }
+    h1{
+        padding-left: 0;
+        font-size: 8vw;
+    }
+    .r{
+        padding: 5px;
+    }
+    .helpt{
+        padding: 40px 10px 40px 10px;
+        font-size: 5vw;
+    }
+    .fbox_main{
+        width:90%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .fbox{
+        padding-top: 30px;
+    }
+    /*Vanish*/
+    .ppl,.ppll,.ppr,.pprr,.vanish,.slider,.bb{
+        display: none;
+    }
+    /*Unvanish*/
+    .sliderr,.hidder{
+        display: block;
+    }
+    h2{
+        padding:0px;
+        padding-bottom: 5px;
+    }
+    .buy{
+        margin: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .quest{
+        width: 100%;
+        padding:0;
+    }
+    .boxer{
+        margin:0;
+        width: 100%;
+    }
+}
